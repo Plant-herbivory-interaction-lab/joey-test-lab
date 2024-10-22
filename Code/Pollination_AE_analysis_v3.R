@@ -20,7 +20,7 @@ library(picante)
 library(FD)
 library(bipartite)
 
-plants_data<-read_excel("Pollination_neighborhood_data21.xlsx",sheet="plants")
+plants_data_joey<-read_excel("Pollination_neighborhood_data21.xlsx",sheet="plants")
 visitors_data<-read_excel("Pollination_neighborhood_data21.xlsx",sheet="visitors")
 plots_data<-read_excel("Pollination_neighborhood_data21.xlsx",sheet="plots")
 plant_traits<-read_excel("Pollination_neighborhood_data21.xlsx",sheet="plant_spp_traits")
