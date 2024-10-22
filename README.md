@@ -5,6 +5,7 @@ Cammarano, J.H., S. Kroening, E.S. Calixto, and P.G. Hahn. Co-blooming neighbor 
 All the data are contained within the excel file 'Pollination_neighborhood_data21.xlsx'.
 
 ## Sheet 'plots': 
+
 This sheet contains information on the quadrats (n = 20) surveyed each date.
 
 variables	  units	            description
@@ -21,7 +22,8 @@ start 	    hr:min	          time starting site flower visitor survey
 end	        hr:min	          time ending site flower visitor survey
 
 
-## Sheet 'plants': 
+## Sheet 'plants':
+
 This sheet contains information on flowering plant species within each quadrat, with number of flowers, height of tallest flower (cm), and height of shortest flower (cm).
 
 variables	          units	                      description
@@ -34,6 +36,7 @@ flowe_short	        cm	                        height of shortest peduncle of sp
 [neighbor sp name]  sequence no. (flower no.)   order of visit to neighbor plant inflorescence and number of flowers visited
 
 ## Sheet 'visitors': 
+
 This sheet contains information on pollinator vistors to each quadrat, the species they visited, and the number of visits.
 
 variables	      units	      description
@@ -49,6 +52,7 @@ flower_visits_2	count	      no. of inflorescences visited by insect of sp switch
 
 
 ## Sheet 'plant_spp_traits': 
+
 This sheet contains information on floral traits of each species, along with the references from where they were obtained.
 
 variables	      units	      description
@@ -63,6 +67,7 @@ references		              source of information
 
 
 ## Sheet 'visitor_spp_traits': 
+
 This sheet contains incomplete information on pollinator species traits.
 
 
