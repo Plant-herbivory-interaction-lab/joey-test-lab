@@ -435,44 +435,49 @@ plant</td>
 each quadrat, with number of flowers, height of tallest flower (cm), and
 height of shortest flower (cm).</p>
 <table>
+<colgroup>
+<col width="30%" />
+<col width="38%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">variables</th>
 <th align="center">units</th>
-<th align="center">description</th>
+<th align="left">description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">plot</td>
 <td align="center">#</td>
-<td align="center">1 m diameter circular quadrat w/ central focal sp
+<td align="left">1 m diameter circular quadrat w/ central focal sp
 plant</td>
 </tr>
 <tr class="even">
 <td align="left">flower_sp</td>
 <td align="center">sp name</td>
-<td align="center">blooming sp within plot</td>
+<td align="left">blooming sp within plot</td>
 </tr>
 <tr class="odd">
 <td align="left">flower_no</td>
 <td align="center">count</td>
-<td align="center">no. of inflorescences of sp in plot</td>
+<td align="left">no. of inflorescences of sp in plot</td>
 </tr>
 <tr class="even">
 <td align="left">flower_tall</td>
 <td align="center">cm</td>
-<td align="center">height of tallest peduncle of sp in plot</td>
+<td align="left">height of tallest peduncle of sp in plot</td>
 </tr>
 <tr class="odd">
-<td align="left">flowe_short</td>
+<td align="left">flower_short</td>
 <td align="center">cm</td>
-<td align="center">height of shortest peduncle of sp in plot</td>
+<td align="left">height of shortest peduncle of sp in plot</td>
 </tr>
 <tr class="even">
 <td align="left">[neighbor sp name]</td>
 <td align="center">sequence no. (flower no.)</td>
-<td align="center">order of visit to neighbor plant inflorescence and
+<td align="left">order of visit to neighbor plant inflorescence and
 number of flowers visited</td>
 </tr>
 </tbody>
@@ -483,57 +488,62 @@ number of flowers visited</td>
 <p>This sheet contains information on pollinator vistors to each
 quadrat, the species they visited, and the number of visits.</p>
 <table>
+<colgroup>
+<col width="30%" />
+<col width="38%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">variables</th>
 <th align="center">units</th>
-<th align="center">description</th>
+<th align="left">description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">plot</td>
 <td align="center">#</td>
-<td align="center">1 m diameter circular quadrat w/ central focal sp
+<td align="left">1 m diameter circular quadrat w/ central focal sp
 plant</td>
 </tr>
 <tr class="even">
 <td align="left">visitor_sp</td>
 <td align="center">sp name</td>
-<td align="center">insect visiting flowers within plot during 10-minute
+<td align="left">insect visiting flowers within plot during 10-minute
 timed period</td>
 </tr>
 <tr class="odd">
 <td align="left">visitor_no</td>
 <td align="center">count</td>
-<td align="center">no. of individuals of insect sp visiting flowers
-within plot during timed period</td>
+<td align="left">no. of individuals of insect sp visiting flowers within
+plot during timed period</td>
 </tr>
 <tr class="even">
 <td align="left">flower_sp</td>
 <td align="center">sp name</td>
-<td align="center">blooming sp visited by insect</td>
+<td align="left">blooming sp visited by insect</td>
 </tr>
 <tr class="odd">
 <td align="left">flower_visits</td>
 <td align="center">count</td>
-<td align="center">no. of inflorescences visited by insect</td>
+<td align="left">no. of inflorescences visited by insect</td>
 </tr>
 <tr class="even">
 <td align="left">switch</td>
 <td align="center">count</td>
-<td align="center">change in sp being visited by insect</td>
+<td align="left">change in sp being visited by insect</td>
 </tr>
 <tr class="odd">
-<td align="left">flower_sp_2 sp</td>
-<td align="center">name</td>
-<td align="center">blooming sp switched to</td>
+<td align="left">flower_sp_2</td>
+<td align="center">sp</td>
+<td align="left">name</td>
 </tr>
 <tr class="even">
 <td align="left">flower_visits_2</td>
 <td align="center">count</td>
-<td align="center">no. of inflorescences visited by insect of sp
-switched to</td>
+<td align="left">no. of inflorescences visited by insect of sp switched
+to</td>
 </tr>
 </tbody>
 </table>
@@ -543,50 +553,54 @@ switched to</td>
 <p>This sheet contains information on floral traits of each species,
 along with the references from where they were obtained.</p>
 <table>
+<colgroup>
+<col width="30%" />
+<col width="38%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">variables</th>
 <th align="center">units</th>
-<th align="center">description</th>
+<th align="left">description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">petal_color</td>
 <td align="center">categorical</td>
-<td align="center">color of petal or colored sepal</td>
+<td align="left">color of petal or colored sepal</td>
 </tr>
 <tr class="even">
 <td align="left">petal_wvl</td>
 <td align="center">scale</td>
-<td align="center">violet=1, blue=2, green=3, yellow=4, orange=5,
+<td align="left">violet=1, blue=2, green=3, yellow=4, orange=5,
 red=6</td>
 </tr>
 <tr class="odd">
 <td align="left">corolla_depth</td>
 <td align="center">mm</td>
-<td align="center">length of corolla/floret from base to tip of
-petal</td>
+<td align="left">length of corolla/floret from base to tip of petal</td>
 </tr>
 <tr class="even">
 <td align="left">flor_per_inflor</td>
 <td align="center">count</td>
-<td align="center">average flowers per inflorescence</td>
+<td align="left">average flowers per inflorescence</td>
 </tr>
 <tr class="odd">
 <td align="left">inflor_diam</td>
 <td align="center">mm</td>
-<td align="center">diameter or length of inflorescence</td>
+<td align="left">diameter or length of inflorescence</td>
 </tr>
 <tr class="even">
 <td align="left">orientation</td>
 <td align="center">categorical</td>
-<td align="center">orientation of floral surface</td>
+<td align="left">orientation of floral surface</td>
 </tr>
 <tr class="odd">
 <td align="left">references</td>
 <td align="center"></td>
-<td align="center">source of information</td>
+<td align="left">source of information</td>
 </tr>
 </tbody>
 </table>
