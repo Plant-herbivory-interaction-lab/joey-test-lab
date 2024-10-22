@@ -5,29 +5,27 @@ Cammarano, J.H., S. Kroening, E.S. Calixto, and P.G. Hahn. Co-blooming neighbor 
 All the data are contained within the excel file 'Pollination_neighborhood_data21.xlsx'.
 
 ## Sheet 'plots': 
-
 This sheet contains information on the quadrats (n = 20) surveyed each date.
 
-variables	  units	            description
-----------  --------          --------------
-plot	      #	                1 m diameter circular quadrat w/ central focal sp plant
-focal_stam	count	            no. of focal staminate flowers in plot
-focal_pist	count	            no. of focal pistillate flowers in plot
-grass_ht	  cm	              apparent average height of grass in plot
-grass_cover	%	                apparent cover by grass in plot
-temp	      °F	              temperature
-sun	        categorical	      relative sunlight
-wind	      Beaufort scale    value	wind speed
-start 	    hr:min	          time starting site flower visitor survey
-end	        hr:min	          time ending site flower visitor survey
+| variables | units | description |
+| :--- | :---: | :--- |
+| plot | # | 1 m diameter circular quadrat w/ central focal sp plant |
+| focal_stam | count | no. of focal staminate flowers in plot |
+| focal_pist | count | no. of focal pistillate flowers in plot |
+| grass_ht | cm | apparent average height of grass in plot |
+| grass_cover | % | apparent cover by grass in plot |
+| temp | °F | temperature |
+| sun | categorical | relative sunlight |
+| wind | Beaufort scale value | wind speed |
+| start | hr:min | time starting site flower visitor survey |
+| end	| hr:min	| time ending site flower visitor survey |
 
 
 ## Sheet 'plants':
-
 This sheet contains information on flowering plant species within each quadrat, with number of flowers, height of tallest flower (cm), and height of shortest flower (cm).
 
-variables	          units	                      description
-----------          --------                    --------------
+| variables | units | description |
+| :--- | :---: | :--- |
 plot                # 	                        1 m diameter circular quadrat w/ central focal sp plant
 flower_sp	          sp name                     blooming sp within plot
 flower_no	          count	                      no. of inflorescences of sp in plot
